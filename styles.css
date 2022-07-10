@@ -4,7 +4,7 @@ body{
     width: 100vh;
     margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color: white;
 }
 /* #container{
     width: 95vh;
@@ -255,7 +255,7 @@ font-size: 16px;
     align-items: center;
 }
 .invoice{
-    background-color: white;
+    background-color: grey;
     border-radius: 10px;
     padding: 10px -8px;
     padding-left: 5px;
@@ -358,17 +358,30 @@ font-size: 16px;
 .footer button:hover{
     background-color: blueviolet;
 }
+
 .search{
-    position: fixed;
-    right: 25px;
+    border-color: black;
+    background-color: aliceblue;
+    height: 20px;
+    width: 250px;
+    margin-left: 70px;
+    border-radius: 8px;
+    /* position ;::::::::: */
+    right: 50px;
     margin-top: 5px;
 }
+.searchicon{
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
 .side-content{
     border-radius: 10px;
     background-color: rgb(36, 36, 71);
     position: absolute;
     right: 50px;
-    margin-top: 60px;
+    margin-top: 100px;
     padding: 20px;
     /* line-height: 10px; */
 }
@@ -410,4 +423,11 @@ font-size: 16px;
     color: white;
     float: right;
     padding: 25px -19px;
+}
+.newprojet{
+    /* background-color: rgb(73, 27, 238); */
+    position: absolute;
+    right: 200px;
+    margin-top: 40px;
+    padding: 20px;
 }
